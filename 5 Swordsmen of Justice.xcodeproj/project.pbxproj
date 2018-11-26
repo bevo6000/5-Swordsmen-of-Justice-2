@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CACB5B521A5FC8900E9DD12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CACB5B421A5FC8900E9DD12 /* AppDelegate.swift */; };
+		5CACB5B721A5FC8900E9DD12 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5CACB5B621A5FC8900E9DD12 /* GameScene.sks */; };
+		5CACB5B921A5FC8900E9DD12 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5CACB5B821A5FC8900E9DD12 /* Actions.sks */; };
+		5CACB5BB21A5FC8900E9DD12 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CACB5BA21A5FC8900E9DD12 /* GameScene.swift */; };
+		5CACB5BD21A5FC8900E9DD12 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CACB5BC21A5FC8900E9DD12 /* GameViewController.swift */; };
+		5CACB5C021A5FC8900E9DD12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CACB5BE21A5FC8900E9DD12 /* Main.storyboard */; };
+		5CACB5C221A5FC8C00E9DD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CACB5C121A5FC8C00E9DD12 /* Assets.xcassets */; };
+		5CACB5C521A5FC8C00E9DD12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CACB5C321A5FC8C00E9DD12 /* LaunchScreen.storyboard */; };
+		5CACB5D021A5FC8C00E9DD12 /* __Swordsmen_of_JusticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CACB5CF21A5FC8C00E9DD12 /* __Swordsmen_of_JusticeTests.swift */; };
+		5CACB5DB21A5FC8C00E9DD12 /* __Swordsmen_of_JusticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CACB5DA21A5FC8C00E9DD12 /* __Swordsmen_of_JusticeUITests.swift */; };
+		5CFA08BA21AC8FC800F622F3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA08B821AC8FC800F622F3 /* MainViewController.swift */; };
+		5CFA08BB21AC8FC800F622F3 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CFA08B921AC8FC800F622F3 /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CACB5CC21A5FC8C00E9DD12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CACB5A921A5FC8900E9DD12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CACB5B021A5FC8900E9DD12;
+			remoteInfo = "5 Swordsmen of Justice";
+		};
+		5CACB5D721A5FC8C00E9DD12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CACB5A921A5FC8900E9DD12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CACB5B021A5FC8900E9DD12;
+			remoteInfo = "5 Swordsmen of Justice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CACB5B121A5FC8900E9DD12 /* 5 Swordsmen of Justice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5 Swordsmen of Justice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CACB5B421A5FC8900E9DD12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CACB5B621A5FC8900E9DD12 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5CACB5B821A5FC8900E9DD12 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		5CACB5BA21A5FC8900E9DD12 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5CACB5BC21A5FC8900E9DD12 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5CACB5BF21A5FC8900E9DD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CACB5C121A5FC8C00E9DD12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CACB5C421A5FC8C00E9DD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CACB5C621A5FC8C00E9DD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CACB5CB21A5FC8C00E9DD12 /* 5 Swordsmen of JusticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "5 Swordsmen of JusticeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CACB5CF21A5FC8C00E9DD12 /* __Swordsmen_of_JusticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Swordsmen_of_JusticeTests.swift; sourceTree = "<group>"; };
+		5CACB5D121A5FC8C00E9DD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CACB5D621A5FC8C00E9DD12 /* 5 Swordsmen of JusticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "5 Swordsmen of JusticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CACB5DA21A5FC8C00E9DD12 /* __Swordsmen_of_JusticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Swordsmen_of_JusticeUITests.swift; sourceTree = "<group>"; };
+		5CACB5DC21A5FC8C00E9DD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CFA08B821AC8FC800F622F3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5CFA08B921AC8FC800F622F3 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CACB5AE21A5FC8900E9DD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CACB5C821A5FC8C00E9DD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CACB5D321A5FC8C00E9DD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CACB5A821A5FC8900E9DD12 = {
+			isa = PBXGroup;
+			children = (
+				5CACB5B321A5FC8900E9DD12 /* 5 Swordsmen of Justice */,
+				5CACB5CE21A5FC8C00E9DD12 /* 5 Swordsmen of JusticeTests */,
+				5CACB5D921A5FC8C00E9DD12 /* 5 Swordsmen of JusticeUITests */,
+				5CACB5B221A5FC8900E9DD12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CACB5B221A5FC8900E9DD12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CACB5B121A5FC8900E9DD12 /* 5 Swordsmen of Justice.app */,
+				5CACB5CB21A5FC8C00E9DD12 /* 5 Swordsmen of JusticeTests.xctest */,
+				5CACB5D621A5FC8C00E9DD12 /* 5 Swordsmen of JusticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CACB5B321A5FC8900E9DD12 /* 5 Swordsmen of Justice */ = {
+			isa = PBXGroup;
+			children = (
+				5CACB5B421A5FC8900E9DD12 /* AppDelegate.swift */,
+				5CACB5B621A5FC8900E9DD12 /* GameScene.sks */,
+				5CACB5B821A5FC8900E9DD12 /* Actions.sks */,
+				5CACB5BA21A5FC8900E9DD12 /* GameScene.swift */,
+				5CACB5BC21A5FC8900E9DD12 /* GameViewController.swift */,
+				5CACB5BE21A5FC8900E9DD12 /* Main.storyboard */,
+				5CACB5C121A5FC8C00E9DD12 /* Assets.xcassets */,
+				5CACB5C321A5FC8C00E9DD12 /* LaunchScreen.storyboard */,
+				5CACB5C621A5FC8C00E9DD12 /* Info.plist */,
+				5CFA08B821AC8FC800F622F3 /* MainViewController.swift */,
+				5CFA08B921AC8FC800F622F3 /* MainViewController.xib */,
+			);
+			path = "5 Swordsmen of Justice";
+			sourceTree = "<group>";
+		};
+		5CACB5CE21A5FC8C00E9DD12 /* 5 Swordsmen of JusticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CACB5CF21A5FC8C00E9DD12 /* __Swordsmen_of_JusticeTests.swift */,
+				5CACB5D121A5FC8C00E9DD12 /* Info.plist */,
+			);
+			path = "5 Swordsmen of JusticeTests";
+			sourceTree = "<group>";
+		};
+		5CACB5D921A5FC8C00E9DD12 /* 5 Swordsmen of JusticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CACB5DA21A5FC8C00E9DD12 /* __Swordsmen_of_JusticeUITests.swift */,
+				5CACB5DC21A5FC8C00E9DD12 /* Info.plist */,
+			);
+			path = "5 Swordsmen of JusticeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CACB5B021A5FC8900E9DD12 /* 5 Swordsmen of Justice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CACB5DF21A5FC8C00E9DD12 /* Build configuration list for PBXNativeTarget "5 Swordsmen of Justice" */;
+			buildPhases = (
+				5CACB5AD21A5FC8900E9DD12 /* Sources */,
+				5CACB5AE21A5FC8900E9DD12 /* Frameworks */,
+				5CACB5AF21A5FC8900E9DD12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5 Swordsmen of Justice";
+			productName = "5 Swordsmen of Justice";
+			productReference = 5CACB5B121A5FC8900E9DD12 /* 5 Swordsmen of Justice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CACB5CA21A5FC8C00E9DD12 /* 5 Swordsmen of JusticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CACB5E221A5FC8C00E9DD12 /* Build configuration list for PBXNativeTarget "5 Swordsmen of JusticeTests" */;
+			buildPhases = (
+				5CACB5C721A5FC8C00E9DD12 /* Sources */,
+				5CACB5C821A5FC8C00E9DD12 /* Frameworks */,
+				5CACB5C921A5FC8C00E9DD12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CACB5CD21A5FC8C00E9DD12 /* PBXTargetDependency */,
+			);
+			name = "5 Swordsmen of JusticeTests";
+			productName = "5 Swordsmen of JusticeTests";
+			productReference = 5CACB5CB21A5FC8C00E9DD12 /* 5 Swordsmen of JusticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CACB5D521A5FC8C00E9DD12 /* 5 Swordsmen of JusticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CACB5E521A5FC8C00E9DD12 /* Build configuration list for PBXNativeTarget "5 Swordsmen of JusticeUITests" */;
+			buildPhases = (
+				5CACB5D221A5FC8C00E9DD12 /* Sources */,
+				5CACB5D321A5FC8C00E9DD12 /* Frameworks */,
+				5CACB5D421A5FC8C00E9DD12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CACB5D821A5FC8C00E9DD12 /* PBXTargetDependency */,
+			);
+			name = "5 Swordsmen of JusticeUITests";
+			productName = "5 Swordsmen of JusticeUITests";
+			productReference = 5CACB5D621A5FC8C00E9DD12 /* 5 Swordsmen of JusticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CACB5A921A5FC8900E9DD12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ronald Assed";
+				TargetAttributes = {
+					5CACB5B021A5FC8900E9DD12 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5CACB5CA21A5FC8C00E9DD12 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5CACB5B021A5FC8900E9DD12;
+					};
+					5CACB5D521A5FC8C00E9DD12 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5CACB5B021A5FC8900E9DD12;
+					};
+				};
+			};
+			buildConfigurationList = 5CACB5AC21A5FC8900E9DD12 /* Build configuration list for PBXProject "5 Swordsmen of Justice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CACB5A821A5FC8900E9DD12;
+			productRefGroup = 5CACB5B221A5FC8900E9DD12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CACB5B021A5FC8900E9DD12 /* 5 Swordsmen of Justice */,
+				5CACB5CA21A5FC8C00E9DD12 /* 5 Swordsmen of JusticeTests */,
+				5CACB5D521A5FC8C00E9DD12 /* 5 Swordsmen of JusticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CACB5AF21A5FC8900E9DD12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CACB5C021A5FC8900E9DD12 /* Main.storyboard in Resources */,
+				5CFA08BB21AC8FC800F622F3 /* MainViewController.xib in Resources */,
+				5CACB5B721A5FC8900E9DD12 /* GameScene.sks in Resources */,
+				5CACB5C221A5FC8C00E9DD12 /* Assets.xcassets in Resources */,
+				5CACB5C521A5FC8C00E9DD12 /* LaunchScreen.storyboard in Resources */,
+				5CACB5B921A5FC8900E9DD12 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CACB5C921A5FC8C00E9DD12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CACB5D421A5FC8C00E9DD12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CACB5AD21A5FC8900E9DD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CACB5BB21A5FC8900E9DD12 /* GameScene.swift in Sources */,
+				5CACB5BD21A5FC8900E9DD12 /* GameViewController.swift in Sources */,
+				5CACB5B521A5FC8900E9DD12 /* AppDelegate.swift in Sources */,
+				5CFA08BA21AC8FC800F622F3 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CACB5C721A5FC8C00E9DD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CACB5D021A5FC8C00E9DD12 /* __Swordsmen_of_JusticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CACB5D221A5FC8C00E9DD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CACB5DB21A5FC8C00E9DD12 /* __Swordsmen_of_JusticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CACB5CD21A5FC8C00E9DD12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CACB5B021A5FC8900E9DD12 /* 5 Swordsmen of Justice */;
+			targetProxy = 5CACB5CC21A5FC8C00E9DD12 /* PBXContainerItemProxy */;
+		};
+		5CACB5D821A5FC8C00E9DD12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CACB5B021A5FC8900E9DD12 /* 5 Swordsmen of Justice */;
+			targetProxy = 5CACB5D721A5FC8C00E9DD12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CACB5BE21A5FC8900E9DD12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CACB5BF21A5FC8900E9DD12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CACB5C321A5FC8C00E9DD12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CACB5C421A5FC8C00E9DD12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CACB5DD21A5FC8C00E9DD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CACB5DE21A5FC8C00E9DD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CACB5E021A5FC8C00E9DD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35D772WWTQ;
+				INFOPLIST_FILE = "5 Swordsmen of Justice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Saif-Games-Inc.--Swordsmen-of-Justice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CACB5E121A5FC8C00E9DD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35D772WWTQ;
+				INFOPLIST_FILE = "5 Swordsmen of Justice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Saif-Games-Inc.--Swordsmen-of-Justice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CACB5E321A5FC8C00E9DD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "5 Swordsmen of JusticeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Saif-Games-Inc.--Swordsmen-of-JusticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5 Swordsmen of Justice.app/5 Swordsmen of Justice";
+			};
+			name = Debug;
+		};
+		5CACB5E421A5FC8C00E9DD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "5 Swordsmen of JusticeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Saif-Games-Inc.--Swordsmen-of-JusticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5 Swordsmen of Justice.app/5 Swordsmen of Justice";
+			};
+			name = Release;
+		};
+		5CACB5E621A5FC8C00E9DD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "5 Swordsmen of JusticeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Saif-Games-Inc.--Swordsmen-of-JusticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "5 Swordsmen of Justice";
+			};
+			name = Debug;
+		};
+		5CACB5E721A5FC8C00E9DD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "5 Swordsmen of JusticeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Saif-Games-Inc.--Swordsmen-of-JusticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "5 Swordsmen of Justice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CACB5AC21A5FC8900E9DD12 /* Build configuration list for PBXProject "5 Swordsmen of Justice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CACB5DD21A5FC8C00E9DD12 /* Debug */,
+				5CACB5DE21A5FC8C00E9DD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CACB5DF21A5FC8C00E9DD12 /* Build configuration list for PBXNativeTarget "5 Swordsmen of Justice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CACB5E021A5FC8C00E9DD12 /* Debug */,
+				5CACB5E121A5FC8C00E9DD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CACB5E221A5FC8C00E9DD12 /* Build configuration list for PBXNativeTarget "5 Swordsmen of JusticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CACB5E321A5FC8C00E9DD12 /* Debug */,
+				5CACB5E421A5FC8C00E9DD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CACB5E521A5FC8C00E9DD12 /* Build configuration list for PBXNativeTarget "5 Swordsmen of JusticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CACB5E621A5FC8C00E9DD12 /* Debug */,
+				5CACB5E721A5FC8C00E9DD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CACB5A921A5FC8900E9DD12 /* Project object */;
+}
